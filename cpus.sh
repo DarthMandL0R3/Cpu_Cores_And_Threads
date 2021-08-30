@@ -37,6 +37,6 @@ physicalCpuCount=$([ $(uname) = 'Darwin' ] &&
 
 # Print the values.
 cat <<EOF
-No of logical CPUs :  $logicalCpuCount
-No of physical CPUS: $physicalCpuCount
+No of logical CPUs  :  $logicalCpuCount
+No of physical CPUS :  $physicalCpuCount
 EOF
